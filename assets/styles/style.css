@@ -1,0 +1,44 @@
+* {
+    font-size: 24px;
+}
+
+.red{
+    background: red;
+    padding: 12px;
+}
+
+div, p, li {
+    color: aqua;
+    background: black;
+}
+
+a {
+    color: red;
+    background: yellow;
+}
+
+ul a {
+    color: black;
+}
+
+li > a {
+    color: blue;
+}
+
+div > ul {
+    padding: 30px;
+    background: red;
+}
+
+div > ul > li {
+    color: white;
+    background: none;
+}
+
+div + p {
+    font-size: 50px;
+    color: black;
+    background: none;
+    margin: 0;
+    padding: 0;
+}
